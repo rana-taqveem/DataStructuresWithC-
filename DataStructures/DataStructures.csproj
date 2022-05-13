@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SearchAlgos\" />
+    <None Remove="String\" />
+    <None Remove="ArrayProblems\" />
+    <None Remove="HashSet\" />
+    <None Remove="LinkedList\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SearchAlgos\" />
+    <Folder Include="String\" />
+    <Folder Include="ArrayProblems\" />
+    <Folder Include="HashSet\" />
+    <Folder Include="LinkedList\" />
+  </ItemGroup>
+</Project>
